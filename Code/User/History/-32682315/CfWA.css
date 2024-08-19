@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flashing {
+  font-size: 50px;
+  color: red;
+  animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  0% {
+    color: red;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}

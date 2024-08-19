@@ -1,0 +1,258 @@
+2024-08-19 14:15:45.988 [info] [main] Niveau du journal : Info
+2024-08-19 14:15:45.988 [info] [main] Validation du git trouvé dans : «git»
+2024-08-19 14:15:45.988 [info] [main] Utilisation de git "2.46.0" de "git»
+2024-08-19 14:15:45.988 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-19 14:15:45.988 [info] > git rev-parse --show-toplevel [15ms]
+2024-08-19 14:15:45.988 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:15:45.988 [info] > git rev-parse --show-toplevel [90ms]
+2024-08-19 14:15:45.988 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2024-08-19 14:15:45.988 [info] [Model][openRepository] Opened repository: /home/shasor/Documents/Zone01/groupie-tracker
+2024-08-19 14:15:46.002 [info] > git config --get commit.template [8ms]
+2024-08-19 14:15:46.014 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-19 14:15:46.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2024-08-19 14:15:46.039 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-19 14:15:46.043 [info] [Model][openRepository] Opened repository: /home/shasor/Documents/Zone01/ascii-art-web
+2024-08-19 14:15:46.063 [info] > git config --get commit.template [11ms]
+2024-08-19 14:15:46.068 [info] > git status -z -uall [6ms]
+2024-08-19 14:15:46.079 [info] > git rev-parse --show-toplevel [22ms]
+2024-08-19 14:15:46.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-08-19 14:15:46.102 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-08-19 14:15:46.107 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2024-08-19 14:15:46.112 [info] [Model][openRepository] Opened repository: /home/shasor/Documents/Zone01/ascii-art-web-dockerize
+2024-08-19 14:15:46.112 [info] > git config --get commit.template [23ms]
+2024-08-19 14:15:46.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-08-19 14:15:46.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [18ms]
+2024-08-19 14:15:46.148 [info] > git merge-base refs/heads/master refs/remotes/origin/master [17ms]
+2024-08-19 14:15:46.153 [info] > git rev-parse --show-toplevel [28ms]
+2024-08-19 14:15:46.154 [info] > git config --get commit.template [35ms]
+2024-08-19 14:15:46.163 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [10ms]
+2024-08-19 14:15:46.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2024-08-19 14:15:46.179 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2024-08-19 14:15:46.183 [info] [Model][openRepository] Opened repository: /home/shasor/Documents/Zone01/checkpoint-trainer
+2024-08-19 14:15:46.194 [info] > git status -z -uall [16ms]
+2024-08-19 14:15:46.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2024-08-19 14:15:46.203 [info] > git diff --name-status -z --diff-filter=ADMR 106f90cc8e4ca20b1d9f970bf1108a0e81546e4b...refs/remotes/origin/master [35ms]
+2024-08-19 14:15:46.211 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/shasor/Documents/Zone01/ascii-art-web-dockerize/.git/refs/remotes/origin/master'
+2024-08-19 14:15:46.212 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-08-19 14:15:46.217 [info] > git rev-parse --show-toplevel [24ms]
+2024-08-19 14:15:46.217 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:15:46.217 [info] > git config --get commit.template [28ms]
+2024-08-19 14:15:46.229 [info] > git status -z -uall [4ms]
+2024-08-19 14:15:46.229 [info] > git config --local branch.main.vscode-merge-base [12ms]
+2024-08-19 14:15:46.234 [info] > git rev-parse refs/remotes/origin/master [22ms]
+2024-08-19 14:15:46.238 [info] > git config --get commit.template [30ms]
+2024-08-19 14:15:46.257 [info] > git status -z -uall [19ms]
+2024-08-19 14:15:46.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [24ms]
+2024-08-19 14:15:46.261 [info] > git rev-parse --show-toplevel [32ms]
+2024-08-19 14:15:46.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-08-19 14:15:46.283 [info] > git merge-base refs/heads/main refs/remotes/origin/main [22ms]
+2024-08-19 14:15:46.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2024-08-19 14:15:46.373 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/shasor/Documents/Zone01/checkpoint-trainer/.git/refs/remotes/origin/main'
+2024-08-19 14:15:46.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [86ms]
+2024-08-19 14:15:46.385 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [97ms]
+2024-08-19 14:15:46.391 [info] > git config --local branch.master.vscode-merge-base [108ms]
+2024-08-19 14:15:46.397 [info] > git rev-parse --git-dir --git-common-dir [120ms]
+2024-08-19 14:15:46.402 [info] [Model][openRepository] Opened repository: /home/shasor/Documents/Zone01/git
+2024-08-19 14:15:46.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [129ms]
+2024-08-19 14:15:46.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [21ms]
+2024-08-19 14:15:46.419 [info] > git diff --name-status -z --diff-filter=ADMR c07d5efe77a79f75ae1a6f321b149e6946f3f9ce...refs/remotes/origin/main [28ms]
+2024-08-19 14:15:46.419 [info] > git config --local branch.master.vscode-merge-base [35ms]
+2024-08-19 14:15:46.425 [info] > git config --get commit.template [48ms]
+2024-08-19 14:15:46.425 [info] > git rev-parse refs/remotes/origin/main [52ms]
+2024-08-19 14:15:46.434 [info] > git status -z -uall [4ms]
+2024-08-19 14:15:46.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [9ms]
+2024-08-19 14:15:46.440 [info] > git rev-parse --show-toplevel [24ms]
+2024-08-19 14:15:46.440 [info] > git config --get commit.template [29ms]
+2024-08-19 14:15:46.454 [info] > git merge-base refs/heads/master refs/remotes/origin/master [14ms]
+2024-08-19 14:15:46.497 [info] > git status -z -uall [13ms]
+2024-08-19 14:15:46.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-08-19 14:15:46.501 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [43ms]
+2024-08-19 14:15:46.505 [info] > git rev-parse --git-dir --git-common-dir [52ms]
+2024-08-19 14:15:46.509 [info] [Model][openRepository] Opened repository: /home/shasor/Documents/Zone01/git-save
+2024-08-19 14:15:46.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [62ms]
+2024-08-19 14:15:46.523 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/shasor/Documents/Zone01/ascii-art-web-dockerize/.git/refs/remotes/origin/master'
+2024-08-19 14:15:46.531 [info] > git diff --name-status -z --diff-filter=ADMR 8300ec4a1a471b8c99415a2b6bdff0f5b37de6ec...refs/remotes/origin/master [26ms]
+2024-08-19 14:15:46.531 [info] > git config --local branch.main.vscode-merge-base [30ms]
+2024-08-19 14:15:46.536 [info] > git config --get commit.template [49ms]
+2024-08-19 14:15:46.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [63ms]
+2024-08-19 14:15:46.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-19 14:15:46.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [13ms]
+2024-08-19 14:15:46.555 [info] > git rev-parse refs/remotes/origin/master [32ms]
+2024-08-19 14:15:46.559 [info] > git rev-parse --show-toplevel [41ms]
+2024-08-19 14:15:46.560 [info] > git config --get commit.template [46ms]
+2024-08-19 14:15:46.571 [info] > git status -z -uall [12ms]
+2024-08-19 14:15:46.571 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2024-08-19 14:15:46.575 [info] > git config --local branch.main.vscode-merge-base [26ms]
+2024-08-19 14:15:46.584 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [9ms]
+2024-08-19 14:15:46.588 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2024-08-19 14:15:46.591 [info] [Model][openRepository] Opened repository: /home/shasor/Documents/Zone01/groupie-tracker-perso
+2024-08-19 14:15:46.593 [info] [Model][doInitialScan] Initial repository scan completed - repositories (7), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-19 14:15:46.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-08-19 14:15:46.612 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/shasor/Documents/Zone01/checkpoint-trainer/.git/refs/remotes/origin/main'
+2024-08-19 14:15:46.612 [info] > git status -z -uall [9ms]
+2024-08-19 14:15:46.612 [info] > git diff --name-status -z --diff-filter=ADMR 1d1eb78044e16ef4b80a5124f9685cdcc628b5b5...refs/remotes/origin/main [24ms]
+2024-08-19 14:15:46.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2024-08-19 14:15:46.613 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:15:46.617 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [38ms]
+2024-08-19 14:15:46.633 [info] > git status -z -uall [16ms]
+2024-08-19 14:15:46.643 [info] > git rev-parse refs/remotes/origin/main [32ms]
+2024-08-19 14:15:46.648 [info] > git config --get commit.template [40ms]
+2024-08-19 14:15:46.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [60ms]
+2024-08-19 14:15:46.677 [info] > git status -z -uall [29ms]
+2024-08-19 14:15:46.677 [info] > git config --local branch.master.vscode-merge-base [14ms]
+2024-08-19 14:15:46.682 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2024-08-19 14:15:46.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [56ms]
+2024-08-19 14:15:46.696 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:15:46.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-08-19 14:15:46.719 [info] > git config --local branch.master.vscode-merge-base [32ms]
+2024-08-19 14:15:46.719 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-19 14:15:46.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [42ms]
+2024-08-19 14:15:46.725 [info] > git config --get commit.template [49ms]
+2024-08-19 14:15:46.725 [info] > git config --get commit.template [54ms]
+2024-08-19 14:15:46.728 [info] > git reflog master --grep-reflog=branch: Created from *. [4ms]
+2024-08-19 14:15:46.732 [info] > git config --local branch.main.vscode-merge-base [13ms]
+2024-08-19 14:15:46.736 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2024-08-19 14:15:46.736 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:15:46.754 [info] > git status -z -uall [13ms]
+2024-08-19 14:15:46.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [27ms]
+2024-08-19 14:15:46.764 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [32ms]
+2024-08-19 14:15:46.764 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-19 14:15:46.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2024-08-19 14:15:46.775 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:15:46.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2024-08-19 14:15:46.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2024-08-19 14:15:46.776 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:15:46.791 [info] > git status -z -uall [11ms]
+2024-08-19 14:15:46.797 [info] > git config --get commit.template [23ms]
+2024-08-19 14:15:46.797 [info] > git merge-base refs/heads/master refs/remotes/origin/master [28ms]
+2024-08-19 14:15:46.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-08-19 14:15:46.806 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:15:46.812 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [10ms]
+2024-08-19 14:15:46.823 [info] > git diff --name-status -z --diff-filter=ADMR 310ab64a1bf9735b77e65742b03a72689d2efb26...refs/remotes/origin/master [6ms]
+2024-08-19 14:15:46.824 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-08-19 14:15:46.824 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:15:46.829 [info] > git status -z -uall [6ms]
+2024-08-19 14:15:46.837 [info] > git status -z -uall [9ms]
+2024-08-19 14:15:46.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-19 14:15:46.859 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-08-19 14:15:46.859 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:15:46.859 [info] > git config --local branch.master.vscode-merge-base [16ms]
+2024-08-19 14:15:46.859 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-19 14:15:46.866 [info] > git reflog master --grep-reflog=branch: Created from *. [3ms]
+2024-08-19 14:15:46.927 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [57ms]
+2024-08-19 14:15:46.927 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-19 14:15:47.197 [info] > git check-ignore -v -z --stdin [28ms]
+2024-08-19 14:15:47.198 [info] > git check-ignore -v -z --stdin [25ms]
+2024-08-19 14:15:47.198 [info] > git check-ignore -v -z --stdin [20ms]
+2024-08-19 14:15:47.198 [info] > git check-ignore -v -z --stdin [16ms]
+2024-08-19 14:15:47.199 [info] > git check-ignore -v -z --stdin [12ms]
+2024-08-19 14:15:47.199 [info] > git check-ignore -v -z --stdin [8ms]
+2024-08-19 14:15:47.199 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-19 14:15:49.515 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 14:15:49.515 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:15:52.588 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-19 14:15:52.588 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:15:52.841 [info] > git show --textconv :main.go [17ms]
+2024-08-19 14:15:52.845 [info] > git ls-files --stage -- /home/shasor/Documents/Zone01/groupie-tracker/main.go [6ms]
+2024-08-19 14:15:52.863 [info] > git cat-file -s 7b24042189a03086f251515c77dfc3a7ff325404 [5ms]
+2024-08-19 14:15:54.219 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:15:54.219 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:15:54.623 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-19 14:15:54.623 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:23.866 [info] [main] Niveau du journal : Info
+2024-08-19 14:29:23.866 [info] [main] Validation du git trouvé dans : «git»
+2024-08-19 14:29:23.866 [info] [main] Utilisation de git "2.46.0" de "git»
+2024-08-19 14:29:23.866 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-19 14:29:23.866 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 14:29:23.866 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:23.877 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 14:29:23.877 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:23.882 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:23.882 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:23.888 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:23.888 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:23.895 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-19 14:29:23.895 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:23.904 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-19 14:29:23.904 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:23.997 [info] > git rev-parse --show-toplevel [87ms]
+2024-08-19 14:29:23.997 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.123 [info] > git rev-parse --show-toplevel [48ms]
+2024-08-19 14:29:24.123 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.152 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-19 14:29:24.152 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.159 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.159 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.164 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.164 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.169 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.169 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.174 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.174 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.178 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.178 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.183 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.183 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.188 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.188 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.195 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 14:29:24.195 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.205 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-19 14:29:24.205 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.214 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.214 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.224 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 14:29:24.224 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.234 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-19 14:29:24.234 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.248 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.248 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.255 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.255 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.257 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-19 14:29:24.262 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:24.262 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:24.422 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 14:29:24.422 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:29:25.169 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:29:25.169 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-19 14:33:03.513 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-19 14:33:03.525 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-19 14:33:03.533 [info] [Model][openRepository] Opened repository: /home/shasor/.config/dotfiles
+2024-08-19 14:33:03.542 [info] > git config --get commit.template [2ms]
+2024-08-19 14:33:03.542 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-19 14:33:03.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-19 14:33:03.550 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:33:03.558 [info] > git status -z -uall [3ms]
+2024-08-19 14:33:03.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-08-19 14:33:03.570 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:33:03.572 [info] > git config --get commit.template [2ms]
+2024-08-19 14:33:03.577 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-19 14:33:03.587 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-08-19 14:33:03.587 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:33:03.593 [info] > git status -z -uall [2ms]
+2024-08-19 14:33:03.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-19 14:33:03.599 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:33:04.540 [info] > git check-ignore -v -z --stdin [6ms]
+2024-08-19 14:33:10.910 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/shasor/.config/dotfiles/.git/HEAD'
+2024-08-19 14:33:10.933 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/shasor/.config/dotfiles/.git/config'
+2024-08-19 14:33:10.957 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/shasor/.config/dotfiles/.git/HEAD'
+2024-08-19 14:33:10.965 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/shasor/.config/dotfiles/.git/config'
+2024-08-19 14:33:13.644 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 14:33:13.650 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-08-19 14:33:13.654 [info] [Model][openRepository] Opened repository: /home/shasor/.config
+2024-08-19 14:33:13.662 [info] > git config --get commit.template [2ms]
+2024-08-19 14:33:13.666 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-19 14:33:13.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-08-19 14:33:13.669 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:33:13.718 [info] > git status -z -uall [45ms] (cancelled)
+2024-08-19 14:33:14.190 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-19 14:33:21.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [60ms]
+2024-08-19 14:33:21.797 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:33:21.801 [info] > git config --get commit.template [7ms]
+2024-08-19 14:33:21.807 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-19 14:33:21.809 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-19 14:33:21.809 [warning] [Git][getBranch] No such branch: master
+2024-08-19 14:33:22.611 [info] > git status -z -uall [798ms] (cancelled)
+2024-08-19 14:33:22.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [79ms]
+2024-08-19 14:33:22.612 [warning] [Git][getBranch] No such branch: master

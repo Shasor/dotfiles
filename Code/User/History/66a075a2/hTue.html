@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+    <title>Welcome to Artist Tracker</title>
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <img
+          src="https://s3.amazonaws.com/busites_www/jameyjohnson/pages/meta/banner_default_1467297777_1469130049.jpg"
+          alt="Artist Tracker Banner"
+        />
+        <h1>Groupie-Tracker</h1>
+      </a>
+    </header>
+    <h2>Discover all of your favorite artists and their information!</h2>
+    <div class="container">
+      <div class="column">
+        <span>Creation Date</span>
+        <div class="filter">
+          <div class="dual-slider">
+            <input
+              id="creationDateMin"
+              type="range"
+              min="1958"
+              max="2015"
+              value="1958"
+            />
+            <input
+              id="creationDateMax"
+              type="range"
+              min="1958"
+              max="2015"
+              value="2015"
+            />
+          </div>
+          <div class="min_max">
+            <input
+              type="number"
+              id="creationDateMinInput"
+              value="1958"
+              min="1958"
+              max="2015"
+            />
+            <input
+              type="number"
+              id="creationDateMaxInput"
+              value="2015"
+              min="1958"
+              max="2015"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <span>N° of members</span>
+        <div class="filter">
+          <div class="checkboxes">
+            <input type="checkbox" id="memberCount1" value="1" checked />
+            <label for="memberCount1">1</label>
+            <input type="checkbox" id="memberCount2" value="2" checked />
+            <label for="memberCount2">2</label>
+            <input type="checkbox" id="memberCount3" value="3" checked />
+            <label for="memberCount3">3</label>
+            <input type="checkbox" id="memberCount4" value="4" checked />
+            <label for="memberCount4">4</label>
+            <input type="checkbox" id="memberCount5" value="5" checked />
+            <label for="memberCount5">5</label>
+            <input type="checkbox" id="memberCount6" value="6" checked />
+            <label for="memberCount6">6</label>
+            <input type="checkbox" id="memberCount7" value="7" checked />
+            <label for="memberCount7">7</label>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <span>First Album</span>
+        <div class="filter">
+          <div class="dual-slider">
+            <input
+              id="firstAlbumMin"
+              type="range"
+              min="1963"
+              max="2018"
+              value="1963"
+            />
+            <input
+              id="firstAlbumMax"
+              type="range"
+              min="1963"
+              max="2018"
+              value="2018"
+            />
+          </div>
+          <div class="min_max">
+            <input
+              type="number"
+              id="firstAlbumMinInput"
+              value="1963"
+              min="1963"
+              max="2018"
+            />
+            <input
+              type="number"
+              id="firstAlbumMaxInput"
+              value="2018"
+              min="1963"
+              max="2018"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <span>Locations</span>
+        <div class="filter">
+          <div class="locations_box">
+            <input
+              type="text"
+              id="locationInput"
+              placeholder="Select locations..."
+            />
+            <div id="locationsList" class="hidden"></div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <span></span>
+        <div class="filter">
+          <button id="applyFilters" class="apply-filters-btn">
+            Apply Filters
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add search bar -->
+    <div class="search-container">
+      <input
+        type="text"
+        id="search"
+        placeholder="Search artists, members, albums..."
+        autocomplete="off"
+      />
+      <div id="suggestions" class="suggestions-dropdown"></div>
+    </div>
+
+    <div class="album-container">
+      {{range .}}
+      <div class="album">
+        <a href="/artist/{{.ID}}">
+          <div class="album-box">
+            <img src="{{.Image}}" alt="{{.Name}}" />
+            <div class="album-info">
+              <h2>{{.Name}}</h2>
+              <h3>{{.CreationDate}}</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+      {{end}}
+    </div>
+
+    <script src="/static/js/filter.js"></script>
+    <script src="static/js/search.js"></script>
+  </body>
+</html>

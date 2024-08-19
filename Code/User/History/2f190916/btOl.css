@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins Mono", monospace;
+  padding: 0 10px;
+}
+html {
+  --s: 134px; /* control the size*/
+  --c1: #1d1d1d;
+  --c2: #4e4f51;
+  --c3: #3c3c3c;
+
+  background: repeating-conic-gradient(
+        from 30deg,
+        #0000 0 120deg,
+        var(--c3) 0 180deg
+      )
+      calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
+    repeating-conic-gradient(
+      from 30deg,
+      var(--c1) 0 60deg,
+      var(--c2) 0 120deg,
+      var(--c3) 0 180deg
+    );
+  background-size: var(--s) calc(var(--s) * 0.577);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.body {
+  position: relative;
+  width: 700px;
+  height: 600px;
+  background: #1c1c11;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.body::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 700px;
+  height: 600px;
+  background: linear-gradient(0deg, transparent, #ff0000, #ff0000);
+  transform-origin: bottom right;
+  animation: animate 3s linear infinite;
+}
+
+.body::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: 600px;
+  background: linear-gradient(0deg, transparent, #0000ff, #0000ff);
+  transform-origin: top left;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  position: absolute;
+  inset: 4px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  z-index: 10;
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ff0000;
+}
+
+.form hr {
+  margin-top: 20px;
+  border: 1px solid red;
+}
+
+.input {
+  position: relative;
+  margin-top: 25px;
+}
+
+.input textarea {
+  width: 100%;
+  height: 100px;
+  padding: 20px 10px 5px;
+  background: transparent;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #0000ff;
+  resize: none;
+  font-size: 15px;
+}
+
+.input select,
+input[type="submit"] {
+  display: block;
+  text-align: center;
+  margin: -5px auto;
+  background: transparent;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #0000ff;
+  width: max-content;
+  padding: 0.2em;
+}
+
+.result {
+  position: relative;
+  margin-top: 25px;
+  height: 100%;
+}
+
+.result textarea {
+  width: 100%;
+  height: 100%;
+  padding: 45px 20px 5px;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #0000ff;
+  resize: none;
+  font-size: 15px;
+  overflow-x: auto; /* Active le défilement horizontal */
+  overflow-y: auto; /* Désactive le défilement vertical */
+  white-space: pre; /* Conserve les espaces et les sauts de ligne */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}

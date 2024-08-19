@@ -1,0 +1,6 @@
+2024-07-26 12:15:49.317 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/shasor/Documents/Zone01/groupie-tracker)
+2024-07-26 12:42:31.989 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/shasor/Documents/Zone01/groupie-tracker-filters)
+2024-07-26 12:43:03.734 [error] [File Watcher (node.js)] Failed to watch /home/shasor/Documents/Zone01/groupie-tracker-filters/.git/refs/remotes/origin/master for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/shasor/Documents/Zone01/groupie-tracker-filters/.git/refs/remotes/origin/master')
+2024-07-26 12:43:03.740 [error] [File Watcher (node.js)] Failed to watch /home/shasor/Documents/Zone01/groupie-tracker-filters/static/js/search.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/shasor/Documents/Zone01/groupie-tracker-filters/static/js/search.js')
+2024-07-26 12:47:38.032 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-26 12:51:28.065 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

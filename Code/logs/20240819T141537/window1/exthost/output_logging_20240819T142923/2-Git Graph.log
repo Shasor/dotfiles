@@ -1,0 +1,15 @@
+[2024-08-19 14:29:23.639] Starting Git Graph ...
+[2024-08-19 14:29:23.648] Using git (version: 2.46.0)
+[2024-08-19 14:29:23.659] Started Git Graph - Ready to use!
+[2024-08-19 14:29:23.659] Searching workspace for new repos ...
+[2024-08-19 14:29:23.663] > git rev-parse --show-toplevel
+[2024-08-19 14:29:23.665] Completed searching workspace for new repos
+[2024-08-19 14:29:23.740] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2024-08-19 14:33:04.477] > git rev-parse --show-toplevel
+[2024-08-19 14:33:04.478] Added new repo: /home/shasor/.config/dotfiles
+[2024-08-19 14:33:04.479] Showing "Git Graph" Status Bar Item
+[2024-08-19 14:33:09.894] Removed repo: /home/shasor/.config/dotfiles
+[2024-08-19 14:33:09.894] Hiding "Git Graph" Status Bar Item
+[2024-08-19 14:33:14.630] > git rev-parse --show-toplevel
+[2024-08-19 14:33:14.631] Added new repo: /home/shasor/.config
+[2024-08-19 14:33:14.631] Showing "Git Graph" Status Bar Item

@@ -1,0 +1,333 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2024-07-24 16:18 CEST
+Nmap scan report for 172.16.0.2
+Host is up (0.0033s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.3
+Host is up (0.0042s latency).
+Not shown: 96 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+80/tcp open http
+443/tcp open https
+8080/tcp open http-proxy
+8443/tcp open https-alt
+
+Nmap scan report for 172.16.0.5
+Host is up (0.0034s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.6
+Host is up (0.0034s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.7
+Host is up (0.0036s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.8
+Host is up (0.0035s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.9
+Host is up (0.0036s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.10
+Host is up (0.0034s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.11
+Host is up (0.0033s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.12
+Host is up (0.0037s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.13
+Host is up (0.0026s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.14
+Host is up (0.0034s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.15
+Host is up (0.0034s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.16
+Host is up (0.0033s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.17
+Host is up (0.0038s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.18
+Host is up (0.0033s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.19
+Host is up (0.0032s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.21
+Host is up (0.0035s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.22
+Host is up (0.0032s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.24
+Host is up (0.0037s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.25
+Host is up (0.0037s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.26
+Host is up (0.0035s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.27
+Host is up (0.0033s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.28
+Host is up (0.0034s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for 172.16.0.29
+Host is up (0.0035s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+22/tcp open ssh
+
+Nmap scan report for Zone01StudentX515.localdomain (172.16.0.112)
+Host is up (0.067s latency).
+All 100 scanned ports on Zone01StudentX515.localdomain (172.16.0.112) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for studentHP.localdomain (172.16.0.131)
+Host is up (0.016s latency).
+All 100 scanned ports on studentHP.localdomain (172.16.0.131) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for POCO-M4-Pro.localdomain (172.16.0.163)
+Host is up (0.11s latency).
+All 100 scanned ports on POCO-M4-Pro.localdomain (172.16.0.163) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for OPPO-A74.localdomain (172.16.0.174)
+Host is up (0.091s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+5060/tcp filtered sip
+
+Nmap scan report for louis-velard.localdomain (172.16.0.209)
+Host is up (0.0072s latency).
+All 100 scanned ports on louis-velard.localdomain (172.16.0.209) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for M2007J20CG.localdomain (172.16.1.1)
+Host is up (0.010s latency).
+All 100 scanned ports on M2007J20CG.localdomain (172.16.1.1) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for 172.16.1.31
+Host is up (0.0074s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+49152/tcp open unknown
+
+Nmap scan report for student.localdomain (172.16.1.40)
+Host is up (0.0088s latency).
+All 100 scanned ports on student.localdomain (172.16.1.40) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for Moonki.localdomain (172.16.1.49)
+Host is up (0.00024s latency).
+All 100 scanned ports on Moonki.localdomain (172.16.1.49) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for S20-de-Tengoku.localdomain (172.16.1.52)
+Host is up (0.16s latency).
+All 100 scanned ports on S20-de-Tengoku.localdomain (172.16.1.52) are in ignored states.
+Not shown: 95 filtered tcp ports (no-response), 5 filtered tcp ports (host-unreach)
+
+Nmap scan report for student.localdomain (172.16.1.64)
+Host is up (0.044s latency).
+Not shown: 95 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+80/tcp open http
+111/tcp open rpcbind
+2049/tcp open nfs
+3389/tcp open ms-wbt-server
+5000/tcp open upnp
+
+Nmap scan report for OnePlus-Nord2-5G.localdomain (172.16.1.89)
+Host is up (0.0088s latency).
+All 100 scanned ports on OnePlus-Nord2-5G.localdomain (172.16.1.89) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for student-spc.localdomain (172.16.1.155)
+Host is up (0.014s latency).
+All 100 scanned ports on student-spc.localdomain (172.16.1.155) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for student.localdomain (172.16.1.207)
+Host is up (0.0067s latency).
+All 100 scanned ports on student.localdomain (172.16.1.207) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for Xiaomi-12T.localdomain (172.16.1.246)
+Host is up (2.4s latency).
+All 100 scanned ports on Xiaomi-12T.localdomain (172.16.1.246) are in ignored states.
+Not shown: 58 filtered tcp ports (host-unreach), 42 filtered tcp ports (no-response)
+
+Nmap scan report for student.localdomain (172.16.2.20)
+Host is up (0.0065s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+8080/tcp open http-proxy
+
+Nmap scan report for student.localdomain (172.16.2.50)
+Host is up (0.0047s latency).
+All 100 scanned ports on student.localdomain (172.16.2.50) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for Redmi-Note-9-Pro.localdomain (172.16.2.94)
+Host is up (0.0076s latency).
+All 100 scanned ports on Redmi-Note-9-Pro.localdomain (172.16.2.94) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for student.localdomain (172.16.2.107)
+Host is up (0.0095s latency).
+All 100 scanned ports on student.localdomain (172.16.2.107) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for DontTryMe.localdomain (172.16.2.126)
+Host is up (0.0037s latency).
+Not shown: 97 filtered tcp ports (no-response)
+PORT STATE SERVICE
+80/tcp open http
+443/tcp open https
+3306/tcp open mysql
+
+Nmap scan report for Dayana.localdomain (172.16.2.149)
+Host is up (0.95s latency).
+All 100 scanned ports on Dayana.localdomain (172.16.2.149) are in ignored states.
+Not shown: 71 filtered tcp ports (no-response), 29 filtered tcp ports (host-unreach)
+
+Nmap scan report for student-S14.localdomain (172.16.2.174)
+Host is up (0.0099s latency).
+All 100 scanned ports on student-S14.localdomain (172.16.2.174) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for 172.16.2.186
+Host is up (0.0080s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+49152/tcp open unknown
+
+Nmap scan report for student.localdomain (172.16.2.215)
+Host is up (0.0099s latency).
+Not shown: 98 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+3000/tcp open ppp
+8080/tcp open http-proxy
+
+Nmap scan report for Zone01StudentX515.localdomain (172.16.2.227)
+Host is up (0.11s latency).
+All 100 scanned ports on Zone01StudentX515.localdomain (172.16.2.227) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for iPhone.localdomain (172.16.2.237)
+Host is up (0.0076s latency).
+All 100 scanned ports on iPhone.localdomain (172.16.2.237) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap scan report for Salle.localdomain (172.16.3.3)
+Host is up (0.0036s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+9999/tcp open abyss
+
+Nmap scan report for Air-de-Mathias.localdomain (172.16.3.54)
+Host is up (0.019s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+5000/tcp open upnp
+
+Nmap scan report for 172.16.3.55
+Host is up (0.0064s latency).
+Not shown: 54 closed tcp ports (conn-refused), 45 filtered tcp ports (no-response)
+PORT STATE SERVICE
+49152/tcp open unknown
+
+Nmap scan report for 172.16.3.88
+Host is up (0.017s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT STATE SERVICE
+49152/tcp open unknown
+
+Nmap scan report for studentHP.localdomain (172.16.3.103)
+Host is up (0.081s latency).
+All 100 scanned ports on studentHP.localdomain (172.16.3.103) are in ignored states.
+Not shown: 91 filtered tcp ports (no-response), 9 filtered tcp ports (host-unreach)
+
+Nmap scan report for IPhone-X.localdomain (172.16.3.145)
+Host is up (0.011s latency).
+All 100 scanned ports on IPhone-X.localdomain (172.16.3.145) are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
+
+Nmap done: 65536 IP addresses (57 hosts up) scanned in 617.52 seconds

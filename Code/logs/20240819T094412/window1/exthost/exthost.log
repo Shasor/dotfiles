@@ -1,0 +1,99 @@
+2024-08-19 09:44:16.972 [info] Extension host with pid 1428 started
+2024-08-19 09:44:16.972 [info] Skipping acquiring lock for /home/shasor/.config/Code/User/workspaceStorage/2d0db3b518f103748dc037dbf9d3d998.
+2024-08-19 09:44:17.380 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-19 09:44:17.381 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-08-19 09:44:20.233 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-19 09:44:20.234 [info] ExtensionService#_doActivateExtension icrawl.discord-vscode, startup: true, activationEvent: '*'
+2024-08-19 09:44:20.273 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-08-19 09:44:22.520 [error] TypeError: Cannot read properties of null (reading 'write')
+	at IPCTransport.send (/home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24881)
+	at /home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24968
+	at new Promise (<anonymous>)
+	at IPCTransport.close (/home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24925)
+	at RPCClient.destroy (/home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:18626)
+	at login (/home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:149260)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async activate (/home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:151363)
+	at async m.n (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6409)
+	at async m (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6372)
+	at async m.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:5829)
+2024-08-19 09:44:24.874 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-19 09:44:24.875 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-19 09:44:25.200 [info] Eager extensions activated
+2024-08-19 09:44:25.227 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 09:44:25.227 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 09:44:25.228 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 09:44:25.441 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 09:44:25.445 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 09:44:25.570 [info] ExtensionService#_doActivateExtension jinliming2.vscode-go-template, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 09:44:25.578 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 09:44:25.970 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-08-19 09:44:27.826 [error] Error: No such branch: master.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-19 09:44:27.934 [error] Error: No such branch: master.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-19 09:44:27.947 [error] Error: No such branch: master.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-19 09:44:28.001 [error] Error: No such branch: master.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-19 09:44:37.765 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2024-08-19 09:44:38.649 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-19 09:44:38.650 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-19 09:44:38.651 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-19 09:44:50.011 [error] TypeError: Cannot read properties of null (reading 'write')
+	at IPCTransport.send (/home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24881)
+	at /home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24968
+	at new Promise (<anonymous>)
+	at IPCTransport.close (/home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24925)
+	at RPCClient.destroy (/home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:18626)
+	at disable (/home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:150433)
+	at /home/shasor/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:150991
+	at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.$executeContributedCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:207341)
+	at E.S (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5980)
+	at E.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5746)
+	at E.M (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4778)
+	at E.L (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at i.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at n.B (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at i.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:8655)
+	at n.B (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6781)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-08-19 09:44:51.039 [warning] TextEditor is closed/disposed
+2024-08-19 09:44:51.127 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2024-08-19 12:24:45.358 [warning] TextEditor is closed/disposed
+2024-08-19 12:24:45.525 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-08-19 12:24:45.525 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-08-19 12:24:46.460 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-08-19 13:14:32.287 [warning] TextEditor is closed/disposed
+2024-08-19 13:25:28.211 [warning] TextEditor is closed/disposed

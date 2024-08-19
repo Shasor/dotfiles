@@ -1,0 +1,12 @@
+2024-08-19 09:44:16.736 [info] Deleted uninstalled extension from disk esbenp.prettier-vscode /home/shasor/.vscode/extensions/esbenp.prettier-vscode-10.4.0
+2024-08-19 09:44:16.737 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-fr /home/shasor/.vscode/extensions/ms-ceintl.vscode-language-pack-fr-1.91.2024071009
+2024-08-19 09:44:16.739 [info] Deleted uninstalled extension from disk eamodio.gitlens /home/shasor/.vscode/extensions/eamodio.gitlens-15.2.1
+2024-08-19 09:44:16.739 [info] Deleted uninstalled extension from disk pkief.material-icon-theme /home/shasor/.vscode/extensions/pkief.material-icon-theme-5.8.0
+2024-08-19 09:44:16.741 [info] Deleted uninstalled extension from disk ms-azuretools.vscode-docker /home/shasor/.vscode/extensions/ms-azuretools.vscode-docker-1.29.1
+2024-08-19 09:44:16.811 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/shasor/.vscode/extensions/eamodio.gitlens-15.2.1.3572ee90.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/shasor/.vscode/extensions/eamodio.gitlens-15.2.1.3572ee90.vsctmp'
+    at o.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)

@@ -1,0 +1,6 @@
+[2024-07-26 09:35:08.894] [      6ms] [/home/shasor/Documents/Zone01/groupie-tracker] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} --
+fatal: bad revision '@'
+
+

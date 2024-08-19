@@ -1,0 +1,27 @@
+// Placer vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
+[
+  {
+    "key": "ctrl+k ctrl+oem_comma",
+    "command": "workbench.action.openSettings"
+  },
+  {
+    "key": "ctrl+oem_comma",
+    "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "workbench.userDataSync.actions.showSyncedData"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "workbench.action.terminal.killAll"
+  },
+  {
+    "key": "ctrl+[Backquote]",
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
+]

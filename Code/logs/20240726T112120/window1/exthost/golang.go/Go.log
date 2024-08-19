@@ -1,0 +1,18 @@
+2024-07-26 11:21:25.498 [info] Try to start language server - activation (enabled: true)
+2024-07-26 11:21:25.606 [info] Running language server gopls(v0.16.1/go1.22.4)
+2024-07-26 12:16:52.411 [info] Try to start language server - activation (enabled: true)
+2024-07-26 12:16:52.491 [info] Running language server gopls(v0.16.1/go1.22.4)
+2024-07-26 12:31:42.948 [info] Running checks...
+2024-07-26 12:31:42.948 [info] Starting linting the current package at /home/shasor/Documents/Zone01/groupie-tracker-filters
+2024-07-26 12:31:49.937 [info] /home/shasor/Documents/Zone01/groupie-tracker-filters>Finished running tool: /home/shasor/go/bin/staticcheck
+2024-07-26 12:31:49.937 [info] 
+2024-07-26 12:38:20.681 [info] Running checks...
+2024-07-26 12:38:20.681 [info] Starting linting the current package at /home/shasor/Documents/Zone01/groupie-tracker-filters
+2024-07-26 12:38:20.946 [info] /home/shasor/Documents/Zone01/groupie-tracker-filters>Finished running tool: /home/shasor/go/bin/staticcheck
+2024-07-26 12:38:20.946 [info] 
+2024-07-26 12:54:37.603 [info] Try to start language server - activation (enabled: true)
+2024-07-26 12:54:37.653 [info] Running language server gopls(v0.16.1/go1.22.4)
+2024-07-26 12:54:57.519 [info] Running checks...
+2024-07-26 12:54:57.519 [info] Starting linting the current package at /home/shasor/Documents/Zone01/groupie-tracker
+2024-07-26 12:54:57.778 [info] /home/shasor/Documents/Zone01/groupie-tracker>Finished running tool: /home/shasor/go/bin/staticcheck
+2024-07-26 12:54:57.778 [info] 

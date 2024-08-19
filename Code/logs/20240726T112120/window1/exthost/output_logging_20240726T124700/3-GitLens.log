@@ -1,0 +1,5 @@
+GitLens v15.2.1 activating in Visual Studio Code (1.91.1) on the desktop; language='fr', logLevel='warn', defaultDateLocale='null' (eb239512a6345b4dfa474f731e2036055ac1e1c501f97753fe68a74f3e9fa173|de742e8b-ed4d-404d-aa88-d6aea12f46611721990819366)
+To enable debug logging, set `"gitlens.outputLevel: "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2024-07-26 10:47:01.981] [GIT  ] [/home/shasor/Documents/Zone01] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [42ms]
+[2024-07-26 10:47:03.387] [GIT  ] [/home/shasor/.config/hypr] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [8ms]
+[2024-07-26 10:47:11.731] [GIT  ] [/home/shasor/.config/waybar] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [8ms]

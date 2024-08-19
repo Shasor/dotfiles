@@ -1,0 +1,65 @@
+[2024-07-26 13:15:21.854] Starting Git Graph ...
+[2024-07-26 13:15:21.861] Using git (version: 2.45.2)
+[2024-07-26 13:15:21.871] > git rev-parse --show-toplevel
+[2024-07-26 13:15:21.871] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:15:21.872] Started Git Graph - Ready to use!
+[2024-07-26 13:15:21.874] Searching workspace for new repos ...
+[2024-07-26 13:15:21.877] > git rev-parse --show-toplevel
+[2024-07-26 13:15:21.879] Completed searching workspace for new repos
+[2024-07-26 13:15:21.928] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2024-07-26 13:18:07.438] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker
+[2024-07-26 13:18:07.438] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:19:09.934] > git rev-parse --show-toplevel
+[2024-07-26 13:19:12.797] > git rev-parse --show-toplevel
+[2024-07-26 13:19:12.798] Added new repo: /home/shasor/Documents/Zone01/test
+[2024-07-26 13:19:12.799] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:22:11.785] Removed repo: /home/shasor/Documents/Zone01/test
+[2024-07-26 13:22:11.786] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:22:24.288] > git rev-parse --show-toplevel
+[2024-07-26 13:22:24.290] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:22:24.291] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:25:06.283] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:25:06.283] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:25:13.146] > git rev-parse --show-toplevel
+[2024-07-26 13:25:13.151] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:25:13.158] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:28:01.168] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:28:01.169] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:28:15.374] > git rev-parse --show-toplevel
+[2024-07-26 13:28:15.375] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:28:15.377] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:28:29.651] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:28:29.652] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:28:35.152] > git rev-parse --show-toplevel
+[2024-07-26 13:28:35.154] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:28:35.155] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:32:35.564] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:32:35.564] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:32:39.339] > git rev-parse --show-toplevel
+[2024-07-26 13:32:39.375] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:32:39.377] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:38:44.713] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:38:44.713] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:38:52.642] > git rev-parse --show-toplevel
+[2024-07-26 13:38:52.643] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:38:52.643] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:42:55.434] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
+[2024-07-26 13:42:55.434] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:43:04.411] > git rev-parse --show-toplevel
+[2024-07-26 13:43:04.413] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-geolocalization
+[2024-07-26 13:43:04.415] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:43:49.717] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker-geolocalization
+[2024-07-26 13:43:49.717] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:43:54.142] > git rev-parse --show-toplevel
+[2024-07-26 13:43:54.143] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-search-bar
+[2024-07-26 13:43:54.145] Showing "Git Graph" Status Bar Item
+[2024-07-26 13:44:28.673] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker-search-bar
+[2024-07-26 13:44:28.673] Hiding "Git Graph" Status Bar Item
+[2024-07-26 13:44:33.329] > git rev-parse --show-toplevel
+[2024-07-26 13:44:33.330] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-visualizations
+[2024-07-26 13:44:33.331] Showing "Git Graph" Status Bar Item
+[2024-07-26 16:13:24.312] Removed repo: /home/shasor/Documents/Zone01/groupie-tracker-visualizations
+[2024-07-26 16:13:24.313] Hiding "Git Graph" Status Bar Item
+[2024-07-26 16:13:31.796] > git rev-parse --show-toplevel
+[2024-07-26 16:13:31.797] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker
+[2024-07-26 16:13:31.799] Showing "Git Graph" Status Bar Item
