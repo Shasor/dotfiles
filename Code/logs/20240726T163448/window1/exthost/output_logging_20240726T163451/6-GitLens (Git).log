@@ -1,6 +1,0 @@
-[2024-07-26 14:34:54.308] [     56ms] [/home/shasor/Documents/Zone01] git rev-parse --show-toplevel • FAILED
-
-Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
-fatal: not a git repository (or any of the parent directories): .git
-
-

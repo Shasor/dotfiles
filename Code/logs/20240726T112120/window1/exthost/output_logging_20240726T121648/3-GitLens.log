@@ -1,3 +1,0 @@
-GitLens v15.2.1 activating in Visual Studio Code (1.91.1) on the desktop; language='fr', logLevel='warn', defaultDateLocale='null' (eb239512a6345b4dfa474f731e2036055ac1e1c501f97753fe68a74f3e9fa173|6920e472-576a-45b9-bc08-246fe9bf16fb1721989007753)
-To enable debug logging, set `"gitlens.outputLevel: "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette[2024-07-26 10:43:02.686] /home/shasor/.vscode/extensions/eamodio.gitlens-15.2.1/dist/gitlens.js:1122:7956
-Error: spawn /usr/bin/git ENOENT

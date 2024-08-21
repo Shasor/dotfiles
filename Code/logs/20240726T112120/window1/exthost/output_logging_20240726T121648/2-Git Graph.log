@@ -1,9 +1,0 @@
-[2024-07-26 12:16:49.108] Starting Git Graph ...
-[2024-07-26 12:16:49.123] Using git (version: 2.45.2)
-[2024-07-26 12:16:49.134] Started Git Graph - Ready to use!
-[2024-07-26 12:16:49.135] Searching workspace for new repos ...
-[2024-07-26 12:16:49.141] > git rev-parse --show-toplevel
-[2024-07-26 12:16:49.144] Added new repo: /home/shasor/Documents/Zone01/groupie-tracker-filters
-[2024-07-26 12:16:49.147] Completed searching workspace for new repos
-[2024-07-26 12:16:49.147] Showing "Git Graph" Status Bar Item
-[2024-07-26 12:16:49.204] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"

@@ -1,8 +1,0 @@
-[19/08/2024 14:15:43 - INFO] Discord Presence activated
-[19/08/2024 14:15:43 - INFO] Creating discord-rpc client
-[19/08/2024 14:15:44 - INFO] Successfully connected to Discord
-[19/08/2024 14:15:44 - DEBUG] Loading git extension
-[19/08/2024 14:15:44 - TRACE] Git extension not activated, activating...
-[19/08/2024 14:15:44 - DEBUG] Loading git extension
-[19/08/2024 14:15:44 - TRACE] Git extension not activated, activating...
-[19/08/2024 14:15:45 - TRACE] VSCode language id: go
