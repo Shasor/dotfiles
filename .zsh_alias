@@ -1,0 +1,4 @@
+alias sudo="sudo "
+alias lal="ls -al"
+alias lsblko="lsblk -o name,size,type,mountpoint,uuid"
+alias vim="nvim"
